@@ -2,6 +2,7 @@
 
 
 **ÖNEMLİ: Kökte bulunan 3 png ve mp4.zip kılavuz video ve görseldir derleme anlamında ihtiyacınız yoktur**
+**ÖNEMLİ: Backend dizinine S4E-backend-Ahmet-Gursel reposundan backend-haftası.zip dosyasını indirerek ulaşabilirsiniz.**
 
 
 Bu proje **Next.js tabanlı frontend** ve **Flask tabanlı backend**
