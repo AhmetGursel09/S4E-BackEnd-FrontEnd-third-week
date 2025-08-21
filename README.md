@@ -1,5 +1,9 @@
 # Frontend Haftası Projesi
 
+
+**ÖNEMLİ: Kökte bulunan 3 png ve mp4.zip kılavuz video ve görseldir derleme anlamında ihtiyacınız yoktur**
+
+
 Bu proje **Next.js tabanlı frontend** ve **Flask tabanlı backend**
 içeren tam yığın (full-stack) bir uygulamadır.\
 Frontend kısmı ile job (iş) tetikleme ve job sonuçlarını görüntüleme
@@ -50,8 +54,8 @@ arayüzüne erişebilirsiniz:
     kaydeder.\
 -   **Crawl Alanı** → Verdiğiniz URL'i detaylıca tarar ve sonucu job
     history'sine ekler.\
-    \> Crawl işlemi hakkında daha fazla bilgi için **videoyu repoda
-    bulabilirsiniz.**\
+    \> Crawl işlemi hakkında daha fazla bilgi için **videoyu mp4.zip şeklinde repoda
+    bulabilirsiniz. Video sadece kılavuzdur derleme aşamasında işiniz yoktur**\
 -   **HTTP Status** → Verdiğiniz URL'in HTTP durum kodunu döner.
 
 Çalıştırdığınız tüm işlemler, anında ana ekranda görünmeyebilir.\
