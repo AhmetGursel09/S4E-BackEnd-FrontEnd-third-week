@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Haftası
 
-## Getting Started
+Bu proje
+[`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)
+ile başlatılmış bir [Next.js](https://nextjs.org) uygulamasıdır.
 
-First, run the development server:
+## Başlangıç
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Projeyi çalıştırabilmek için **backend** kısmına da sahip olmalısınız.
+
+### 1. Backend'i Çalıştırın
+
+Önce backend projesinin dizinine gidin:
+
+``` bash
+cd backend
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ardından backend servisini ayağa kaldırmak için:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+``` bash
+docker compose up --build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> Eğer daha önce build aldıysanız sadece `docker compose up` da yeterli
+> olacaktır.
 
-## Learn More
+### 2. Frontend'i Başlatın
 
-To learn more about Next.js, take a look at the following resources:
+Ardından frontend kısmını çalıştırmak için:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+``` bash
+npm install
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. Uygulamaya Erişim
 
-## Deploy on Vercel
+Tüm servisler çalıştıktan sonra tarayıcınızda aşağıdaki adrese gidin:\
+👉 <http://localhost:3000>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+------------------------------------------------------------------------
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Job'ların Çalıştırılması ve Sonuçların Görüntülenmesi
+
+-   **Shell Alanı** → Yazdığınız komutu çalıştırır.\
+-   **Crawl Alanı** → Verdiğiniz URL'i detaylıca tarar.\
+-   **HTTP Status Job'u** → Verilen URL'in HTTP durum kodunu (örneğin
+    `200`, `404`, `500` vb.) kontrol edip sonuçlara yazar.
+
+Çalıştırdığınız job'lar **ana sayfada değil**, **Jobs Results
+(History)** ekranında görünür.\
+- Jobs Results sayfasına girdiğinizde çalıştırdığınız job hemen
+listelenmeyebilir.\
+- **Sayfayı yenileyip birkaç saniye bekleyin** → job geçmişin en üstüne
+düşecektir.\
+- İlgili job'a tıklayarak detaylarını görebilirsiniz.
