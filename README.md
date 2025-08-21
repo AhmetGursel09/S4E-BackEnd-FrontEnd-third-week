@@ -4,7 +4,7 @@ Bu proje **Next.js tabanlı frontend** ve **Flask tabanlı backend**
 içeren tam yığın (full-stack) bir uygulamadır.\
 Frontend kısmı ile job (iş) tetikleme ve job sonuçlarını görüntüleme
 yapılırken, backend kısmı işlerin kuyruğa alınması, işlenmesi ve
-sonuçlarının saklanmasından sorumludur.
+sonuçlarının saklanmasından sorumludur. Herhangi bir dosya eksikliğiyle karşılaşmamak adına zip hali de repo içinde mevcuttur.
 
 ------------------------------------------------------------------------
 
